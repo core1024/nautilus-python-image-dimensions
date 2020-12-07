@@ -4,6 +4,7 @@ Nautilus script to show image dimensions in list view column
 
 ## Instalation
 
-Copy the script to `~/.local/share/nautilus-python/extensions/` or `/usr/share/nautilus-python/extensions/`.
+1. Make sure that `python-nautilus` is installed
+2. Copy the script to `~/.local/share/nautilus-python/extensions/` or `/usr/share/nautilus-python/extensions/`.
 
-Restart Nautilus
+Restart Nautilus by running `nautilus -q`
