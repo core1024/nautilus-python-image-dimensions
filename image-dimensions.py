@@ -19,7 +19,7 @@ class ColumnExtension(GObject.GObject, Nautilus.ColumnProvider, Nautilus.InfoPro
             file.add_string_attribute('image_dimensions', '')
             return
         
-        filename = urllib.unquote(file.get_uri()[7:])
+        filename = urllib.parse.unquote(file.get_uri()[7:])
         size = ''
         try:
             im = Image.open(filename)
